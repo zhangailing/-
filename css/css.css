@@ -1,0 +1,61 @@
+/* CSS Document */
+
+*{
+margin:0;
+padding:0;
+line-height:1.5;
+font-size:12px;}
+#box{
+width:960px;
+margin:0 auto;}
+img.left{
+float:left}
+#menu{
+height:36px;
+border-top:#000000 8px solid;}
+#menu a:link,#menu a:visited{
+text-decoration:none;
+color:#000000;
+font-size:14px;
+line-height:36px;
+display:inline-block;
+padding:0 10px;
+}
+#menu a:hover,#menu a.selected{
+color:#FFFFFF;
+background-color:#990000;
+padding:0 10px;}
+#lujing{
+height:36px;
+line-height:36px;
+background:url(images/navbg.gif) repeat-x;}
+#lujing a:link,#lujing a:visited{
+text-decoration:none;
+color:#000000;}
+#lujing a:hover{
+color:#FF0000;}
+h1{
+font-size:16px;
+font-weight:bold;
+text-align:center;
+border-bottom:#000000 dashed 1px;
+margin:8px 0 0 0;}
+h2{
+padding:0 0 10px 0;
+text-align:right;
+color:#CCCCCC;
+}
+p{
+text-indent:2em;}
+#content{
+padding:0 40px 20px 40px;
+}
+#content img{
+display:block;
+margin:auto;
+margin-top:10px;
+}
+#footer{
+background:#CCCCCC;
+text-align:center;
+padding-top:10px;}
